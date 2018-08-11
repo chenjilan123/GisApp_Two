@@ -5,4 +5,17 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="bin\Debug\**" />
+    <Compile Remove="bin\Release\**" />
+    <EmbeddedResource Remove="bin\Debug\**" />
+    <EmbeddedResource Remove="bin\Release\**" />
+    <None Remove="bin\Debug\**" />
+    <None Remove="bin\Release\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\" />
+  </ItemGroup>
+
 </Project>
