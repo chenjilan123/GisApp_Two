@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="bin\" />
+    <Compile Include="bin\111.cs" />
   </ItemGroup>
 
 </Project>
